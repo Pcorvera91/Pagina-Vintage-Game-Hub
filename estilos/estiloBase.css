@@ -14,7 +14,7 @@
 
 body{
   font-family:'RetroGame',sans-serif;
-  background-color: #DEDEA7;
+  background-color: #EBEAFF;
 }
 
 .quitaPuntos{
@@ -57,7 +57,7 @@ nav{
 }
 
 .bloque-principal-header{
-  background-color: #E06469;
+  background-color: #9694FF;
   margin-top: 0;
   margin-left: 0;
   margin-right: 0;
@@ -65,7 +65,7 @@ nav{
 }
 
 .bloque-footer{
-  background-color: #BE5A83;
+  background-color: #3D3BF3;
 }
 
 a {
@@ -78,7 +78,7 @@ a {
 }
 
 .navbar{
-  background:#f3baa5;
+  background:#FF2929;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
   border-radius: 5px;
   margin: 0; /* Quitar margen para unirlo con el bloque azul */
