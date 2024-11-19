@@ -1,0 +1,89 @@
+.tarjeta-is {
+    width: 300px;
+    padding: 20px;
+    background-color: #F2B6A0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  }
+  
+  .tarjeta-cc{
+  
+    width: 450px;
+    padding: 20px;
+    background-color: #F2B6A0;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+  
+  }
+  
+  .tarjeta-is h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .tarjeta-cc h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .seccionCentrada{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      background-color: #f4f4f9;
+  
+  }
+  
+  input[type="email"],
+  input[type="password"],
+  input[type="text"],
+  input[type="tel"] {
+  
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 15px;
+      border: 1px solid #ddd;
+      border-radius: 5px;
+      font-size: 16px;
+  }
+  
+  
+  
+  
+  /* Estilo del botón de inicio de sesión */
+  .button-is {
+      width: 100%;
+      padding: 10px;
+      background-color: #e06468a6;
+      color: white;
+      font-size: 16px;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+  }
+  
+  .button-is:hover {
+      background-color: #45a049;
+  }
+  
+  /* Estilo para el texto de recuperar contraseña */
+  p {
+      margin-top: 15px;
+      font-size: 14px;
+      color: black;
+  }
+  
+  /* Estilo del enlace de recuperar contraseña */
+  section p a {
+      color: #4CAF50;
+      text-decoration: none;
+  }
+  
+  a:hover {
+      text-decoration: underline;
+  }
+  

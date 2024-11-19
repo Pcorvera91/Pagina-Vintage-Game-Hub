@@ -1,0 +1,64 @@
+.product-card {
+    width: 300px; /* Ancho de la tarjeta */
+    border: 1px solid #ddd; /* Borde sutil */
+    border-radius: 10px; /* Esquinas redondeadas */
+    overflow: hidden; /* Recorta cualquier contenido desbordante */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra para darle profundidad */
+    background-color: #b5cbf3;
+    text-align: center; /* Centrar contenido */
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: scale(1.05); /* Efecto de zoom al pasar el mouse */
+}
+
+/* Estilo de la imagen */
+.product-image img {
+    width: 70%; /* Imagen ocupa todo el ancho */
+    height: auto; /* Mantiene proporciones */
+}
+
+/* Estilo de la información del producto */
+.product-info {
+    padding: 15px; /* Espaciado interno */
+}
+
+.product-title {
+    font-size: 1.2rem; /* Tamaño del título */
+    color: #333; /* Color oscuro para el texto */
+    margin-bottom: 10px;
+}
+
+.product-description {
+    font-size: 0.9rem; /* Tamaño más pequeño para la descripción */
+    color: #666; /* Color gris para un texto secundario */
+    margin-bottom: 15px;
+}
+
+.product-price {
+    font-size: 1.1rem; /* Tamaño del precio */
+    color: #4CAF50; /* Color verde para destacar */
+    margin-bottom: 15px;
+}
+
+/* Estilo del botón */
+.buy-button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.buy-button:hover {
+    background-color: #45a049;
+}
+
+.products-cards{
+    display: flex;
+    flex-wrap: wrap;
+}
