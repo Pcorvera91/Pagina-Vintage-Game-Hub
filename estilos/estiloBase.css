@@ -143,10 +143,34 @@ header {
 
 
 
-@media (max-width:480px) {
-  .cabezaYPie{
+@media (max-width: 480px) {
+  .cabezaYPie {
     flex-direction: column;
-    gap: 50px;
-    
+    gap: 20px;
+  }
+
+  .navbar {
+    padding: 10px;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .navbar ul {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .navbar ul li {
+    border-right: none;
+    border-bottom: 1px solid white;
+    padding: 10px 0;
+  }
+
+  .navbar ul li:last-child {
+    border-bottom: none;
+  }
+
+  body {
+    overflow-x: hidden;
   }
 }
