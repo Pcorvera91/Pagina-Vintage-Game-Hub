@@ -53,6 +53,7 @@ nav{
   display: flex;
   flex-direction: row;
   gap: 10px; /* Espacio entre los elementos */
+  flex-wrap: wrap;
     
 }
 
@@ -140,10 +141,12 @@ header {
 }
 
 
-/*@media (max-width:768px) {
-  
-}
+
 
 @media (max-width:480px) {
-  
-}*/
+  .cabezaYPie{
+    flex-direction: column;
+    gap: 50px;
+    
+  }
+}
