@@ -83,7 +83,7 @@ a {
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3); /* Sombra para darle profundidad */
   border-radius: 5px;
   margin: 0; /* Quitar margen para unirlo con el bloque azul */
-  padding: 10px 0; /* Altura ajustada */
+  padding: 15px 10px; /* Altura ajustada */
 }
 
 .navbar ul li {
@@ -138,6 +138,8 @@ header {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
+  padding: 20px;
+  margin: 10px auto;
 }
 
 
