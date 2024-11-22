@@ -91,30 +91,3 @@
       text-decoration: underline;
   }
   
-@media (max-width: 480px) {
-    .tarjeta-is,
-    .tarjeta-cc {
-      width: 90%; /* Ocupar casi todo el ancho de la pantalla */
-      margin: 10px auto; /* Centrar con margen superior/inferior */
-      padding: 15px; /* Reducir el relleno */
-    }
-  
-    .tarjeta-is h2,
-    .tarjeta-cc h2 {
-      font-size: 1.5rem; /* Ajustar el tamaño del texto */
-    }
-
-    input[type="email"],
-    input[type="password"],
-    input[type="text"],
-    input[type="tel"] {
-        font-size: 14px; /* Reducir tamaño de texto */
-        padding: 8px; /* Reducir padding interno */
-        margin-bottom: 10px; /* Espaciado menor entre campos */
-    }
-
-    .button-is {
-        padding: 8px 12px; /* Reducir padding del botón */
-        font-size: 14px; /* Reducir tamaño del texto */
-    }
-}
