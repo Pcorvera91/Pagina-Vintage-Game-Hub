@@ -15,7 +15,7 @@
 body{
   font-family:'RetroGame',sans-serif;
   background-color: #EBEAFF;
-  overflow-x: hidden;
+  width: 100%;
   
 }
 
@@ -175,5 +175,6 @@ header {
   /* Control del scroll horizontal */
   body {
     overflow-x: hidden; /* Evita que haya scroll horizontal */
+    
   }
 }

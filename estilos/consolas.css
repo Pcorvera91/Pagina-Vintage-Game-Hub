@@ -67,8 +67,12 @@
 }
 
 
+
 @media (max-width:480px) {
     .products-cards{
         flex-direction: column;
+        width: 50%;
+        align-items: center;
     }
+    
   }
