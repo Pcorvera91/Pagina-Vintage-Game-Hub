@@ -142,39 +142,38 @@ header {
   display: grid;
   grid-template-rows: auto 1fr auto;
   min-height: 100vh;
-  padding: 0px;
-  margin: 0px 
+ 
 }
-@media (max-width:480px) {
-  .cabezaYPie{
-    flex-direction: column;
-    gap: 50px;
+
+@media (max-width: 480px) {
+  .cabezaYPie {
+      flex-direction: column; /* Cambia disposición a columna */
+      align-items: center; /* Centra los elementos horizontalmente */
+      gap: 15px; /* Espacio entre logo y enlaces */
   }
 
-  .navbar {
-    padding: 10px;
-    flex-direction: column; /* Cambiar a columna */
-    text-align: center;
+  .imgLogo {
+      max-width: 150px; /* Reducir tamaño del logo */
+      height: auto;
   }
 
   .navbar ul {
-    flex-direction: column; /* Los elementos del menú se apilan verticalmente */
-    gap: 10px;
+      flex-direction: column; /* Apila enlaces verticalmente */
+      gap: 10px;
+      text-align: center;
   }
 
   .navbar ul li {
-    border-right: none; /* Quita los separadores en dispositivos pequeños */
-    border-bottom: 1px solid white; /* Añade separadores debajo */
-    padding: 10px 0;
+      border-right: none; /* Quita separadores laterales */
+      padding: 10px 0; /* Ajusta espaciado vertical */
   }
 
-  .navbar ul li:last-child {
-    border-bottom: none; /* Quita el borde del último elemento */
+  footer {
+      text-align: center; /* Centra contenido del footer */
   }
 
-  /* Control del scroll horizontal */
-  body {
-    overflow-x: hidden; /* Evita que haya scroll horizontal */
-    
+  footer iframe {
+      max-width: 100%; /* Ajusta mapa al ancho del contenedor */
+      height: auto; /* Mantiene proporción */
   }
 }

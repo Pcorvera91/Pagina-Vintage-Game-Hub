@@ -68,11 +68,34 @@
 
 
 
-@media (max-width:480px) {
-    .products-cards{
-        flex-direction: column;
-        width: 50%;
-        align-items: center;
+@media (max-width: 480px) {
+    .products-cards {
+        display: grid;
+        grid-template-columns: 1fr; /* Una columna */
+        gap: 10px; /* Espaciado entre tarjetas */
+        padding: 0 10px; /* Espaciado interno */
     }
-    
-  }
+
+    .product-card {
+        width: 100%; /* Ocupa todo el ancho del contenedor */
+        margin: 0 auto; /* Centra la tarjeta */
+    }
+
+    .product-card img {
+        max-width: 100%; /* Imagen ajustada al contenedor */
+        height: auto;
+    }
+
+    .product-title,
+    .product-description,
+    .product-price {
+        font-size: 1rem; /* Reducir tamaño del texto */
+        text-align: center;
+    }
+
+    .buy-button {
+        width: 100%; /* Botón ocupa todo el ancho */
+        padding: 10px; /* Espaciado interno */
+        font-size: 1rem;
+    }
+}

@@ -90,3 +90,35 @@
       text-decoration: underline;
   }
   
+  @media (max-width: 480px) {
+    .tarjeta-is,
+    .tarjeta-cc {
+        width: 90%; /* Ocupa casi todo el ancho del móvil */
+        padding: 15px; /* Ajusta relleno interno */
+        margin: 15px auto; /* Centra la tarjeta */
+    }
+
+    .tarjeta-is h2,
+    .tarjeta-cc h2 {
+        font-size: 1.5rem; /* Ajusta tamaño del título */
+    }
+
+    input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    input[type="tel"] {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        padding: 10px; /* Ajusta espaciado interno */
+        margin-bottom: 10px;
+    }
+
+    .button-is {
+        width: 100%; /* Botón adaptado al ancho */
+        font-size: 1rem; /* Ajusta tamaño del texto */
+        padding: 10px;
+    }
+
+    p {
+        font-size: 0.9rem; /* Texto más pequeño para móviles */
+    }
+}
