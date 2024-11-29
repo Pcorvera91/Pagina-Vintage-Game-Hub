@@ -165,8 +165,13 @@ header {
 
   .navbar ul li {
       border-right: none; /* Quita separadores laterales */
+      border-bottom: 1px solid white;
       padding: 10px 0; /* Ajusta espaciado vertical */
   }
+
+  .navbar ul li:last-child {
+    border-bottom: none; /* Quita el borde del último elemento */
+}
 
   footer {
       text-align: center; /* Centra contenido del footer */
