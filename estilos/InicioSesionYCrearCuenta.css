@@ -122,3 +122,26 @@
         font-size: 0.9rem; /* Texto más pequeño para móviles */
     }
 }
+
+
+@media (max-width: 768px) {
+    .tarjeta-is,
+    .tarjeta-cc {
+        width: 80%; /* Reducir tamaño para tablets */
+        padding: 20px; /* Ajustar relleno interno */
+        margin: 20px auto; /* Centrar tarjeta */
+    }
+
+    input[type="email"],
+    input[type="password"],
+    input[type="text"],
+    input[type="tel"] {
+        width: 100%; /* Ocupa todo el ancho disponible */
+        padding: 10px;
+    }
+
+    .button-is {
+        width: 100%; /* Botón ocupa todo el ancho */
+        font-size: 1rem; /* Ajustar tamaño del texto */
+    }
+}

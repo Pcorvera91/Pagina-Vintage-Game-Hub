@@ -180,3 +180,20 @@ header {
       height: auto; /* Mantiene proporción */
   }
 }
+
+
+@media (max-width: 768px) {
+  .navbar{
+    flex-wrap: wrap;
+  }
+  .cabezaYPie{
+    flex-direction: column;
+    align-items: center;
+    gap:15px
+  }
+
+  footer iframe {
+    max-width: 100%; /* Ajustar mapa al ancho del contenedor */
+    height: auto; /* Mantener proporción */
+  }
+}
