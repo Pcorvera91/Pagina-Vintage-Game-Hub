@@ -16,7 +16,7 @@ body{
   font-family:'RetroGame',sans-serif;
   background-color: #EBEAFF;
   width: 100%;
-  
+  overflow: scroll;
 }
 
 .quitaPuntos{
