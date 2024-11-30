@@ -37,7 +37,7 @@ nav{
 }
 
 html{
-  overflow: hidden;
+  overflow: scroll;
 }
 
 .imgLogo{
