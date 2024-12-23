@@ -9,9 +9,7 @@ const agregarAlcarrito = (nombre, precio) => {
 
 
 
-const actualizarContador = () => {
-    document.getElementById("contador-carrito").textContent = carrito.length;
-};
+document.addEventListener("DOMContentLoaded", actualizarContador);
 
 window.addEventListener("beforeunload", () => {
     localStorage.setItem("carrito", JSON.stringify(carrito));
